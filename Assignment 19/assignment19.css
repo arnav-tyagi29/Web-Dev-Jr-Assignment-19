@@ -1,0 +1,95 @@
+body{
+    background-image: url("https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif");
+  border: 20px red double;
+  border-radius: 15px;
+
+}
+
+h1{
+    color: black;
+    text-decoration: underline darkmagenta;
+    font-size: 60px;
+    background-color: white;
+    font-weight: bolder;
+    border:black solid 10px;
+}
+.h2{
+    
+    color:red;
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-decoration: underline magenta;
+
+    
+}
+#h2{
+    color:red;
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-decoration: underline yellow ;
+    
+}
+.div{
+    background-color: aqua;
+    margin-left:450px;
+    margin-right: 450px;
+    border-radius: 10px;
+    padding: 50px;
+    border: solid 20px blue;
+    box-shadow: 20px 20px 15px grey;
+    
+    
+}
+#div{
+    background-color: rgb(211, 58, 81);
+    margin-left:450px;
+    margin-right: 450px;
+    border-radius: 10px;
+    border: solid 20px green;
+    box-shadow: 20px 20px 15px grey;
+    padding: 50px;
+}
+.div{
+    text-align: left;
+    transform: translateX(-150px);
+    border-width: 10px solid;
+    transition-property: width height;
+    transition-duration: 1s;
+
+}
+.one{
+    text-align: center;
+}
+
+
+
+.div:hover{
+
+    transition: ease-in-out;
+    transform: translate3d(2px,3px,4px);
+    transition-property: size;
+    padding: 10px;
+    background-color: maroon;
+    
+
+}
+
+#div:hover{
+   
+    transform: translate3d(10px,20px,30px);
+    transition-property: size;
+    transition-duration: 3000ms;
+    padding: 10px;
+    background-color:white;
+    transition-delay: 5000ms;
+}
+
+.div:active{
+
+    box-shadow: 10px 20px 30px 40px grey;
+}
+
+#div:active{
+
+    box-shadow: 10px 20px 30px 40px magenta;
+}
